@@ -83,7 +83,6 @@ def SmallandLargeFun():
         for line in reader_file:
             words = line.split()
             for word in words:
-                # Remove punctuation and convert to lowercase
                 word = word.strip('.,!?()[]{}":;')    #Remove Puntuations
                 word = word.lower()       #Converts to lowercase
                 if word not in wordList:
